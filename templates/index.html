@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cal Sync</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cal Sync</h1>
+        <form method="post">
+            <input type="text" name="link" placeholder="Enter URL" required>
+            <input type="text" name="class_name" placeholder="Enter Class Name" required>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div class="footer">
+        <p><i class="fas fa-code"></i> Built with Flask</p>
+    </div>
+</body>
+</html>
